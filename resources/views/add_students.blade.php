@@ -10,7 +10,9 @@
 
     <title>Crud</title>
 </head>
-<body>   
+<body>  
+    @include('sweetalert::alert')
+
         
         <div class="container" style="margin-top: 20px;">
             <div class="row">
@@ -63,9 +65,9 @@
                             </div>
                             <br>
 
-                            <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+                            <button type="submit" class="btn btn-primary btn-sm">Add</button>
                     
-                            <a href="{{url('students')}}" class="btn btn-danger btn-sm">back</a>
+                            <a href="{{url('students')}}" class="btn btn-danger btn-sm">View student list</a>
 
                         </form>
                     </div>

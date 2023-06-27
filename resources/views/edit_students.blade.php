@@ -11,6 +11,8 @@
     <title>Crud</title>
 </head>
 <body>   
+    @include('sweetalert::alert')
+
         
         <div class="container" style="margin-top: 20px;">
             <div class="row">
